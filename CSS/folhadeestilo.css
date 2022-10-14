@@ -32,8 +32,6 @@ nav ul li a:hover{color: #b13030;}
 	background: rgba(181, 9, 9, 0.8);
 	z-index: 9999;
 	opacity: 0;
-	-webkit-transition: opacity 400ms ease-in;
-	-moz-transition: opacity 400ms ease-in;
 	transition: opacity 400ms ease-in;
 	pointer-events: none;
 	display: none; 
@@ -70,14 +68,12 @@ nav ul li a:hover{color: #b13030;}
 	color: #FFFFFF;
 	line-height: 25px;
 	position: absolute;
-	right: -12px;
+	right: 1px;
 	text-align: center;
-	top: 10px;
-	width: 24;
+	top: 1px;
+	width: 26px;
 	text-decoration: none;
 	font-weight: bold;
-	-webkit-border-radius: 12px;
-	-moz-border-radius: 12px;
 	border-radius: 12px;
 }
 
