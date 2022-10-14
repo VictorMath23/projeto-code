@@ -50,8 +50,7 @@ nav ul li a:hover{color: #b13030;}
 	position: relative;
 	margin: 10% auto;
 	padding: 5px 20px 13px 20px;
-	-webkit-border-radius:  12px;
-	-moz-border-radius:  12 px;
+	border-radius: 12px;
 	background-color: #fff;
 }
 
