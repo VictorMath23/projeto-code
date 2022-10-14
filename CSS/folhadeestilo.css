@@ -1,4 +1,4 @@
-*{margin: 0;padding: 0;}/* *inicia todos os elementos com margin 0 e padding 0 */
+*{margin: 0;padding: 0; font-family: Arial, Helvetica, sans-serif;}/* *inicia todos os elementos com margin 0 e padding 0 */
 
 .container-principal{font-family: "Verdana"; color: #777;}
 
@@ -21,6 +21,7 @@ nav ul li a:hover{color: #b13030;}
 #banner{width: 100%;}
 #banner img{width: 100%; margin-bottom: 0;}
 
+
 /* definifir propiedades dos pop'ups */
 .modalDialog {
 	position: fixed;
@@ -29,18 +30,20 @@ nav ul li a:hover{color: #b13030;}
 	right: 0;
 	bottom: 0;
 	left: 0;
-	background: rgba(181, 9, 9, 0.8);
+	background: none;
+	backdrop-filter: blur(12.5px);
 	z-index: 9999;
-	opacity: 0;
-	transition: opacity 400ms ease-in;
 	pointer-events: none;
 	display: none; 
+	
+	
 }
 
 .modalDialog:target {
 	display: block;
 	opacity: 1;
 	pointer-events: auto;
+	
 }
 
 .modalDialog div{
@@ -49,7 +52,8 @@ nav ul li a:hover{color: #b13030;}
 	margin: 10% auto;
 	padding: 5px 20px 13px 20px;
 	border-radius: 12px;
-	background-color: #fff;
+	background-color: rgba(255, 255, 255, 0.125);
+	box-shadow: black 1px 1px 10px 3px;
 }
 
 .modalDialog p {
@@ -78,7 +82,8 @@ nav ul li a:hover{color: #b13030;}
 }
 
 .close:hover {
-	background-color: #b50909;
+	background-color: #b50909;	
+	
 }
 
 /* Definir as propiedades do footer (rodapé)*/
@@ -121,7 +126,7 @@ footer .footer-text a{color: #fff;}
 
 #txt-contato form textarea{max-width: 100%; width: 99%; border: solid #b50909 1px; padding-left: 1%; min-height: 100px;}
 
-#txt-contato form button{width: 30%; height: auto; cursor: pointer; background-color: #b50909; color: #fff; font-size: 1.5em; padding: 15px 0 15px 0;margin-left: 1%;}
+#txt-contato form button{width: 30%; height: auto; cursor: pointer; background-color: #b50909; color: #fff; font-size: 1.0em; padding: 15px 0 15px 0;margin-top: 1%;}
 
 #txt-contato #conta-data{width: 26%; position: relative; float: left; padding: 2%; background-color: #b50909; color: #fff; top: 5%; margin-left: 1.5%; height: 400px; text-align: center;}
 #txt-contato #conta-data h3{color: #fff; text-align: center;}
