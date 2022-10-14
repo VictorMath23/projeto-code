@@ -68,17 +68,17 @@ nav ul li a:hover{color: #b13030;}
 }
 
 .close {
-	background-color: #606061;
+	background-color: #b509096f;
 	color: #FFFFFF;
-	line-height: 25px;
+	line-height: 30px;
 	position: absolute;
 	right: 1px;
 	text-align: center;
 	top: 1px;
-	width: 26px;
+	width: 30px;
 	text-decoration: none;
 	font-weight: bold;
-	border-radius: 12px;
+	border-radius: 50%;
 }
 
 .close:hover {
