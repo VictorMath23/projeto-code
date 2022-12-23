@@ -1,3 +1,7 @@
 /*definir as propiedades da imagem principal */
 #banner{width: 100%;}
 #banner img{width: 100%; margin-bottom: 0;}
+
+.current{
+	color: rgb(139, 13, 13);
+}

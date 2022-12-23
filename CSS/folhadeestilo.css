@@ -17,6 +17,12 @@ nav ul li {float: left; color: #fff; width: auto; margin: 0.8em; font-size: 1.5e
 nav ul li a {text-decoration: none;color: #bbb;}
 nav ul li a:hover{color: #b13030;}
 
+
+
+.currenti{
+	color: rgb(118, 6, 6);
+}
+
 /*definir as propiedades da imagem principal */
 #banner{width: 100%;}
 #banner img{width: 100%; margin-bottom: 0;}
